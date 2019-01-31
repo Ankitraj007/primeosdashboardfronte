@@ -1,0 +1,60 @@
+.dashboardmainappusageview{
+    width:100%;
+    height:88vh;
+    display: grid;
+    grid-template-rows:50% 50%;
+    min-height: 400px;
+    overflow: hidden;
+    grid-row-gap:16px; 
+    margin-top:31px ;
+}
+.dashboardmainappusageview > div{
+    position: relative;
+}
+.dashboardmainappusageview > div:nth-child(1) table thead th{
+    width: 33.33%;
+    text-align: center;
+}
+.dashboardmainappusageview > div:nth-child(1) table tbody tr{
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid rgb(150,192,255);
+}
+.dashboardmainappusageview > div:nth-child(1) table tbody tr td{
+    width: 33.33%;
+    text-align: center;
+}
+.dashboardmainappusageview > div:nth-child(2) table thead th{
+    width: 50%;
+    text-align: center;
+}
+.dashboardmainappusageview > div:nth-child(2) table tbody tr{
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid rgb(150,192,255);
+}
+.dashboardmainappusageview > div:nth-child(2) table tbody tr td{
+    width: 50%;
+    text-align: center;
+}
+.dashboardmainappusageview > div:nth-child(2) table{
+    width: 50%;
+}
+.dashboardmainappusageview table{
+    background-image: linear-gradient(rgb(1,109,145),rgb(51,152,204));
+    width:100%;
+    display:block;
+    height: 100%;
+}
+.dashboardmainappusageview table thead{
+    display: table;
+    width: 100%;
+    height: 20%;
+}
+.dashboardmainappusageview table tbody{
+    display: block;
+    width: 100%;
+    height: 80%;
+    overflow:auto;
+
+}
